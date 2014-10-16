@@ -1,3 +1,4 @@
+// Iterate over the key-value pairs in a Map
 public static void printMap(Map mp) {
     Iterator it = mp.entrySet().iterator();
     while (it.hasNext()) {
